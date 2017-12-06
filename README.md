@@ -43,6 +43,11 @@ Internally, _cam_ objects are represented as a hash table of hash tables.
 	Walks the _cam_ object and calls _predicate_ with a list of indices and the corresponding value.
 	That is, _predicate_ is #'(lambda (incides value) ...)
 
+[Function]<br>
+**cam-hash** (cam)
+
+	Returns the top-level hash table associated with _cam_.
+
 #### Repository
 [https://github.com/stablecross/cam](https://github.com/stablecross/cam)
 

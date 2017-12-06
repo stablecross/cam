@@ -28,7 +28,7 @@
   :description "Content Addressable Memory library"
   :author "Bob Felts <wrf3@stablecross.com>"
   :license "BSD"
-  :version "1.0.0"
+  :version "1.0.1"
   :serial t
   :components ((:file "package")
                (:file "cam")))

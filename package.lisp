@@ -31,5 +31,6 @@
   (:export
    #:make-cam
    #:camref
-   #:walk-cam))
+   #:walk-cam
+   #:cam-hash))
 

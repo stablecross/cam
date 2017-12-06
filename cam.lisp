@@ -118,6 +118,12 @@
 		 (cam-walk-helper (list index) value))
 	     (primary-hash cam))))
 
+;;;
+;;; return the primary hash table for custom walkers
+;;;
+(defun cam-hash (cam)
+  (primary-hash cam))
+
 (defun test ()
   (let ((cam (make-cam :default-test #'equalp))
 	(result nil)
